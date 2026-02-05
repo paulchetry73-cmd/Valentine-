@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>💖 Someone Has a Secret for You</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="💌 A Valentine Surprise Awaits">
+  <meta property="og:description" content="Tap to see who’s thinking about you ❤️">
+  <meta property="og:image" content="https://i.imgur.com/4M7IWwP.png">
+  <meta property="og:type" content="website">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .box {
+      background: rgba(255,255,255,0.15);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    .heart {
+      font-size: 80px;
+      animation: pulse 1.2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 30px;
+      background: white;
+      color: #ff416c;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="heart">❤️</div>
+    <h1>Someone has a message for you</h1>
+    <p>This Valentine’s Day 💕</p>
+    <button onclick="alert('Gorkhali ❤️ Just wanted to make you smile!')">
+      Reveal Message
+    </button>
+  </div>
+</body>
+</html>
